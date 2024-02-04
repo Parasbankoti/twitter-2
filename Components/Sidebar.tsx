@@ -1,5 +1,4 @@
 import React from "react";
-import "./Sidebar.css";
 import {
   BellIcon,
   EllipsisHorizontalCircleIcon,
@@ -16,6 +15,7 @@ export const Sidebar = () => {
   return (
     <div className="flex-col ">
       <img className="h-8 w-15" src="twtr.png" alt="" />
+
       <SidebarRow Icon={HomeIcon} title={"Home"} />
       <SidebarRow Icon={MagnifyingGlassIcon} title={"Search"} />
       <SidebarRow Icon={BellIcon} title={"Notification"} />
