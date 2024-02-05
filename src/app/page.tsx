@@ -4,8 +4,8 @@ import Widgets from "../../Components/Widgets";
 
 export default function Home() {
   return (
-    <div>
-      <main className="main">
+    <div className="lg:max-w-6xl mx-auto">
+      <main className="grid grid-cols-9	">
         <Sidebar />
         <Feed />
         <Widgets />

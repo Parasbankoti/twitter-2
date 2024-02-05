@@ -3,7 +3,8 @@ import React from "react";
 
 const Feed = () => {
   return (
-    <div className="flex items-center justify-between p-5">
+    // col span 7 when small, and span 5 when it is large, tailwind goes from small to large screens
+    <div className="flex  justify-between p-2 col-span-7 lg:col-span-5">
       <h1 className="text-xl font-bold	">Home</h1>
       <ArrowPathIcon
         className="w-8 h-8 cursor-pointer text-twitter transition-all duration-500 ease-out

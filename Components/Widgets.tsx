@@ -6,7 +6,7 @@ import { TwitterTimelineEmbed } from "react-twitter-embed";
 
 const Widgets = () => {
   return (
-    <div className="px-2 mt-2 ">
+    <div className="px-2 mt-2 hidden lg:inline col-span-2 ">
       <div className="flex items-center  rounded-full p-2 mb-5 bg-slate-300">
         <MagnifyingGlassIcon className="h-7 w-7 ml-2" />
         <input
@@ -17,8 +17,8 @@ const Widgets = () => {
       </div>
       <TwitterTimelineEmbed
         sourceType="profile"
-        screenName="PMOIndia"
-        options={{ height: 400 }}
+        screenName="PicturesFoIder"
+        options={{ height: 800 }}
       />
     </div>
   );

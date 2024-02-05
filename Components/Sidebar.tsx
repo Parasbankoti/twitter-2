@@ -13,8 +13,8 @@ import SidebarRow from "./SidebarRow";
 
 export const Sidebar = () => {
   return (
-    <div className="flex-col ">
-      <img className="h-8 w-15" src="twtr.png" alt="" />
+    <div className="flex flex-col items-center mt-5 col-span-2  md:items-start">
+      <img className="h-8 w-15 mb-5 ml-5" src="twtr.png" alt="" />
 
       <SidebarRow Icon={HomeIcon} title={"Home"} />
       <SidebarRow Icon={MagnifyingGlassIcon} title={"Search"} />
