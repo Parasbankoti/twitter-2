@@ -10,10 +10,15 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.1.1",
+    "@sanity/image-url": "^1.0.2",
+    "@sanity/vision": "^3.28.0",
     "next": "^14.1.0",
+    "next-sanity": "^7.1.1",
     "react": "^18",
     "react-dom": "^18",
-    "react-twitter-embed": "^4.0.4"
+    "react-twitter-embed": "^4.0.4",
+    "sanity": "^3.28.0",
+    "styled-components": "^6.1.8"
   },
   "devDependencies": {
     "@types/node": "^20",
